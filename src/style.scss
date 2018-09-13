@@ -1,0 +1,23 @@
+@import './assets/scss/common.scss';
+@import './assets/fonts/retrofonts.css';
+@import './assets/scss/header.scss';
+@import './assets/scss/hero-sec.scss';
+@import 'normalize.css';
+@import './assets/scss/about-sec.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Bazar';
+    text-transform: uppercase;
+}

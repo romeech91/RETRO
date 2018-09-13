@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Seaside Resort NF';
+    src: url('SeasideResortNF.woff2') format('woff2'),
+        url('SeasideResortNF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bazar';
+    src: url('Bazar.woff2') format('woff2'),
+        url('Bazar.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seaside Resort NF';
+    src: url('SeasideResortNF.woff2') format('woff2'),
+        url('SeasideResortNF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
