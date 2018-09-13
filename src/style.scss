@@ -1,8 +1,8 @@
+@import 'normalize.css';
 @import './assets/scss/common.scss';
 @import './assets/fonts/retrofonts.css';
 @import './assets/scss/header.scss';
 @import './assets/scss/hero-sec.scss';
-@import 'normalize.css';
 @import './assets/scss/about-sec.scss';
 
 * {
@@ -20,4 +20,7 @@ ul {
 body {
     font-family: 'Bazar';
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+

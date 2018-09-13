@@ -1,9 +1,7 @@
 .header {
-    background-image: url('./assets/images/bg/header.png');
+    background: url('./assets/images/bg/header.png') center no-repeat;
     position: relative;
     height: 85px;
-    margin-left: -4px;
-    margin-top: -4px;
     box-shadow: 1px 0px 3px black;
 }
 
