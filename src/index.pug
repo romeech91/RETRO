@@ -25,7 +25,7 @@ html(lang="en")
                 .dashed-lines__top
                 .dashed-lines__bottom
         main.wrapper
-            .section.section-hero
+            section.section-hero
                 .dashed-lines.dashed-lines__hero-top
                     .dashed-lines__top
                     .dashed-lines__bottom
@@ -46,11 +46,11 @@ html(lang="en")
                 .dashed-lines.dashed-lines__hero-bottom
                     .dashed-lines__top
                     .dashed-lines__bottom
-            .section-about
-                .about__heading
-                    h1.about__heading-main About me
-                    p.about__heading-xxx  xxx 
-                    p.about__heading-desc I am graphic designer from baltimore
+            section.section-about
+                .heading-block
+                    h1.heading-block__main About me
+                    p.heading-block__xxx  xxx 
+                    p.heading-block__desc I am graphic designer from baltimore
                 ul.about__list
                     li.about__item
                         .about__item-circle
@@ -84,4 +84,26 @@ html(lang="en")
                             p.item-block__desc What I eat
                             p.item-block__border
                             p.item-block__info Simplicity. Its context. From so many different levels. There's real simplicity is. Designing and place of the objects we're surrounded by seem trivial. There's no rational alternative. I think that's a very complicated problems without letting people have a very easy to mean so much that acknowledges.
-
+            section.section-portfolio
+                .heading-block
+                    h1.heading-block__main Portfolio
+                    p.heading-block__xxx  xxx 
+                    p.heading-block__desc Simplicity is the ultimate sophistication
+                .portfolio-filter
+                    p.portfolio-filter__heading Filter by:
+                    button.portfolio-filter__tag design
+                    button.portfolio-filter__tag logo
+                    button.portfolio-filter__tag photography
+                    button.portfolio-filter__tag retro
+                .gallery
+                    ul.gallery__list
+                        li.gallery__item
+                        li.gallery__item
+                        li.gallery__item
+                        li.gallery__item
+                        li.gallery__item
+                        li.gallery__item
+                        li.gallery__item
+                        li.gallery__item
+                .browse-all 
+                    p.browse-all__txt Browse all
