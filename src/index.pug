@@ -6,17 +6,17 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Retro site 
         link(href="normalize.css")
+        link(rel="shortcut icon", href="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/camera-retro-512.png", type="image/x-icon")
     body
         header.header
             ul.header__list
                 li.header__item
                     a.header__link(href="#") About me
                 li.header__item
-                    a.header__link(href="#") Portfolio
+                    a.header__link(href="#") My Portfolio
                 li.header__item
                     .header__circle
-                        img(src="src/assets/images/icons/hero_logo.png", alt="").header__logo
-                        span.header__logo-text JD
+                        img(src="src/assets/images/icons/header_logo.png", alt="").header__logo
                 li.header__item
                     a.header__link(href="#") My blog
                 li.header__item
@@ -88,13 +88,16 @@ html(lang="en")
                 .heading-block
                     h1.heading-block__main Portfolio
                     p.heading-block__xxx  xxx 
-                    p.heading-block__desc Simplicity is the ultimate sophistication
+                    p.heading-block__desc.portf-desc Simplicity is the ultimate sophistication
                 .portfolio-filter
                     p.portfolio-filter__heading Filter by:
-                    button.portfolio-filter__tag design
-                    button.portfolio-filter__tag logo
-                    button.portfolio-filter__tag photography
-                    button.portfolio-filter__tag retro
+                    button.portfolio-filter__tag • design
+                    button.portfolio-filter__tag • logo
+                    button.portfolio-filter__tag • photography
+                    button.portfolio-filter__tag • retro
+                    button.portfolio-filter__tag • t shirt
+                    button.portfolio-filter__tag • resource
+                    button.portfolio-filter__tag • videos
                 .gallery
                     ul.gallery__list
                         li.gallery__item

@@ -21,6 +21,7 @@
         height: 120px;
         border: 1px solid #fff;
         margin: 9px;
+        background-color: pink;
         &:nth-child(7) {
             display: none;
         }
@@ -41,9 +42,25 @@
         margin: 5px;
     }
     &__tag {
-        height: 25px;
-        margin: 1px;
+        height: 20px;
+        margin: 3px 7px;
+        background-color: beige;
+        border: none;
+        position: relative;
+        border-radius: 4px 0 0 4px;
+        &::before {
+            content: "";
+            position: absolute;
+            border: 10px solid transparent;
+            border-right: 10px solid beige;
+            left: -19px;
+            top: 0;
+        }
     }
+}
+
+.portf-desc {
+    display: none;
 }
 
 .browse-all {
