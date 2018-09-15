@@ -1,10 +1,11 @@
 .section-hero {
-    background: url('./assets/images/bg/slider__sec.jpg') center center no-repeat;
+    background: url('./assets/images/bg/slider__sec.png') center center no-repeat;
     height: 490px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Bazar';
 }
 
 .hero__slider {

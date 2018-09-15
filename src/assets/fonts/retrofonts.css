@@ -1,4 +1,20 @@
 @font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Bold.woff2') format('woff2'),
+        url('RobotoSlab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Regular.woff2') format('woff2'),
+        url('RobotoSlab-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Seaside Resort NF';
     src: url('SeasideResortNF.woff2') format('woff2'),
         url('SeasideResortNF.woff') format('woff');
@@ -11,6 +27,22 @@
     src: url('Bazar.woff2') format('woff2'),
         url('Bazar.woff') format('woff');
     font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Light.woff2') format('woff2'),
+        url('RobotoSlab-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Thin.woff2') format('woff2'),
+        url('RobotoSlab-Thin.woff') format('woff');
+    font-weight: 100;
     font-style: normal;
 }
 
