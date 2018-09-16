@@ -1,15 +1,18 @@
 .header {
-    background-image: url('./assets/images/bg/header.png');
+    background: url('./assets/images/bg/header.png') center no-repeat;
     position: relative;
     height: 85px;
-    margin-left: -4px;
-    margin-top: -4px;
     box-shadow: 1px 0px 3px black;
+    text-align: center;
+    padding: 0 5px;
+    font-family: 'Bazar';
 }
 
 .header__list {
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .header__item {
@@ -19,26 +22,18 @@
 
 .header__link {
     text-decoration: none;
-    color: #000;
-    display: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
 }
 
 .header__logo {
-    width: 90px;
-    height: 90px;
-    position: absolute;
+    width: 70px;
+    height: 70px;
+    position: relative;
     margin: 0 auto;
     left: 50%;
     transform: translateX(-50%);
-    &-text {
-        color: #fff;
-        font-family: "Seaside Resort NF";
-        font-size: 46px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 30%;
-    }
 }
 
 .hamburger-menu {

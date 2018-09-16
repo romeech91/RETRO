@@ -1,10 +1,11 @@
 .section-hero {
-    background: url('./assets/images/bg/slider__sec.jpg') center center no-repeat;
+    background: url('./assets/images/bg/slider__sec.png') center center no-repeat;
     height: 490px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Bazar';
 }
 
 .hero__slider {
@@ -85,7 +86,7 @@
     justify-content: center;
     align-items: center;
     &-img {
-        width: 220px;
+        width: 300px;
         height: 45px;
     }
     &-text {
@@ -98,7 +99,7 @@
 }
 
 .dashed-lines {
-    margin-top: 55px;
+    margin-top: -9px;
     &__hero-top {
         margin-top: 9px;
     }
