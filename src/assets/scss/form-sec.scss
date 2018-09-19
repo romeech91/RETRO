@@ -1,4 +1,4 @@
-.section-form {
+.contacts {
     width: 100%;
     height: 568px;
     padding: 5px;
@@ -53,18 +53,12 @@
 
 .social__desc {
     text-align: center;
-    &-txt {
-        color: #fff;
-        font-family: 'Bazar';
-        text-transform: uppercase;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    &-line {
-        width: 45px;
-        border-top: 1px solid #fff; 
-        margin: 0 auto;
-    }
+    color: #fff;
+    font-family: 'Bazar';
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
 }
 
 .icons__list {
