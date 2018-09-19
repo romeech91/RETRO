@@ -3,8 +3,9 @@ Retro-style landing page
 
 
 ## How to use:
- * `clone this repository`
- * `npm i`
+ 1. `clone this repository`
+ 2. `npm i`
+ 
  -----------------------
 ## Commands:
  * `npm run dev`  * _for_ _development_
