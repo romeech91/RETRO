@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 ,h3 ,h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto slab';
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #383a3c;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 30px 0;
+    &:last-child {
+        padding-bottom: 15px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.heading-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    &__main {
+        font-family: 'Bazar';
+        color: #000;
+        font-size: 32px;
+        font-weight: 400;
+        margin: 0 0;
+        text-shadow: 4px 1px 3px rgba(255, 255, 255, 0.78);
+    }
+
+    &__xxx {
+        margin: 5px;
+        font-size: 12px;
+        display: flex;
+        font-weight: 700;
+        align-items: center;
+        color: #383a3c;
+        &::before {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #383a3c;
+            margin-right: 5px;
+        }
+        &::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #383a3c;
+            margin-left: 5px;
+        }
+    }
+    &__xxx--white {
+        margin: 5px;
+        font-size: 12px;
+        display: flex;
+        font-weight: 700;
+        align-items: center;
+        color: #fff;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            margin-right: 5px;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            margin-left: 5px;
+        }
+    }
+
+    &__desc {
+        margin: 5px 0;
+        font-size: 12px;
+    }
+}
