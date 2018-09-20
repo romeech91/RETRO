@@ -21,34 +21,44 @@
     padding: 10px;
     border: none;
     margin: 5px 0;
+
+    @include tablets {
+        width: 430px;
+    }
+    @include phone320 {
+        width: 100%;
+    }
 }
 
 .form {
     margin: 0 auto 30px auto;
     width: 90%;
     text-align: center;
-    &__name {
-        width: 100%;
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    &__mail {
-        width: 100%;
+
+    @include phone320 {
+        display: block;
     }
-    &__subj {
-        width: 100%;
-    }
-    &__area {
-        width: 100%;
-        resize: none;
-        height: 200px;
-        margin-bottom: 15px;
-    }
-    &__button {
-        border: none;
-        height: 30px;
-        width: 135px;
-        border-radius: 4px;
-        background-color: #fff;
-    }
+
+}
+
+.form__area {
+    resize: none;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.form__button {
+    border: none;
+    height: 30px;
+    width: 135px;
+    border-radius: 4px;
+    background-color: #fff;
 }
 
 .social__desc {
@@ -71,6 +81,7 @@
 
 .socials__list {
     display: flex;
+    justify-content: center;
     margin: 10px 0;
 }
 

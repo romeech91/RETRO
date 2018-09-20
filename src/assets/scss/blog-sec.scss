@@ -9,28 +9,85 @@
 }
 
 .part__photo {
-    display: none;
+    @include tablets {
+        display: block;
+        width: 25%;
+        margin-right: 20px;
+    }
+    @include phone320 {
+        display: none;
+    }
+}
+
+.part__photo-img {
+    width: 150px;
+    height: 120px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.part__content {
+    @include tablets {
+        width: 75%;
+    }
+    @include phone320 {
+        width: 100%;
+    }
 }
 
 .article {
     text-transform: none;
+    width: 90%;
     text-align: left;
-    &__text {
-        font-size: 13px;
+    @include tablets {
+        display: flex;
+        margin: 20px auto;
     }
-    &__heading {
-        font-size: 20px;
-        font-weight: 700;
+    @include phone320 {
+        display: block;
     }
-    &__date {
-        font-size: 14px;
-        font-weight: 600;
-        &-lh {
-            text-transform: uppercase;
-        }
-        &-rh {
-            text-transform: uppercase;
-        }
-        
+}
+
+.article__text {
+    font-size: 13px;
+}
+
+.article__heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.article__date {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+    &::after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        margin-top: 5px;
+        background-color: black;
     }
+    &-lh {
+        text-transform: uppercase;
+    }
+    &-rh {
+        text-transform: uppercase;
+    }
+}
+
+.retro-car {
+    background: url('./assets/images/blog/retro-car.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.retro-road {
+    background: url('./assets/images/blog/retro-road.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.retro-gas {
+    background: url('./assets/images/blog/retro-gas.jpg') center no-repeat;
+    background-size: cover;
 }
