@@ -8,5 +8,5 @@ Retro-style landing page
  
  -----------------------
 ## Commands:
- * `npm run dev`  * _for_ _development_
- * `npm run build`  * _for_ _final_ _building_ 
+ * `npm run dev`       * _for_ _development_
+ * `npm run build`     * _for_ _final_ _building_ 
