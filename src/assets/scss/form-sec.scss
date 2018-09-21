@@ -21,12 +21,9 @@
     padding: 10px;
     border: none;
     margin: 5px 0;
-
+    width: 100%;
     @include tablets {
         width: 430px;
-    }
-    @include phone320 {
-        width: 100%;
     }
 }
 
@@ -34,17 +31,12 @@
     margin: 0 auto 30px auto;
     width: 90%;
     text-align: center;
-
+    display: block;
     @include tablets {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    @include phone320 {
-        display: block;
-    }
-
 }
 
 .form__area {

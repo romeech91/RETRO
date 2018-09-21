@@ -6,12 +6,13 @@
     align-items: center;
     justify-content: center;
     font-family: 'Bazar';
+    padding: 12px;
     @include tablets {
         padding: 20px;
     }
-    @include phone320 {
-        padding: 12px;
-    }
+/*     @include phone320 {
+        
+    } */
 }
 
 .hero__slider {
@@ -20,6 +21,8 @@
     border: 4px solid #fff;
     overflow: hidden;
     position: relative;
+    width: 300px;
+    height: 200px;
     &::after {
         content: "Kodak camera";
         display: block;
@@ -35,21 +38,21 @@
         width: 400px;
         height: 300px;
     }
-    @include phone320 {
-        width: 300px;
-        height: 200px;
-    }
+/*     @include phone320 {
+        
+    } */
 }
 
 .hero__title-pic {
     width: 220px;
-    
+    margin: 15px;
+
     @include tablets {
         margin: 20px 0 15px 0;
     }
-    @include phone320 {
-        margin: 15px;
-    }
+/*     @include phone320 {
+        
+    } */
 }
 
 
@@ -85,15 +88,15 @@
     background-size: contain;
     width: 100%;
     margin: 0 auto 9px auto;
-    
+    height: 35px;
+    font-size: 13px;
     text-align: center;
     line-height: 2.3;
     @include tablets {
         height: 50px;
         font-size: 19px;
     }
-    @include phone320 {
-        height: 35px;
-        font-size: 13px;
-    }
+/*     @include phone320 {
+        
+    } */
 }

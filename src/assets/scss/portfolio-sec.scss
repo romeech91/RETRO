@@ -22,30 +22,22 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
+    width: 120px;
+    height: 120px; 
     @include tablets {
         width: 150px;
         height: 150px;
     }
-    @include phone320 {
-        width: 120px;
-        height: 120px;        
-    }
-
     &:nth-child(7) {
+        display: none;
         @include tablets {
             display: flex;
-        }
-        @include phone320 {
-            display: none;
         }
     }
     &:nth-child(8) {
+        display: none;
         @include tablets {
             display: flex;
-        }
-        @include phone320 {
-            display: none;
         }
     }
 }
@@ -60,11 +52,9 @@
     flex-direction: column;
     &__name {
         text-align: center;
+        font-size: 9px;
         @include tablets {
             font-size: 12px;
-        }
-        @include phone320 {
-            font-size: 9px;
         }
     }
     &__circle {
@@ -76,25 +66,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 30px;
+        height: 30px;
         @include tablets {
             width: 40px;
             height: 40px;
         }
-        @include phone320 {
-            width: 30px;
-            height: 30px;
-        }
     }
     &__img {
+        width: 17px;
+        height: 17px;
         @include tablets {
             width: 20px;
             height: 20px;
         }
-        @include phone320 {
-            width: 17px;
-            height: 17px;
-        }
-        
     }
 }
 
@@ -115,39 +100,33 @@
         border: none;
         position: relative;
         border-radius: 4px 0 0 4px;
+        font-size: 14px;
+        height: 20px;
         @include tablets {
             font-size: 16px;
             height: 24px;
         }
-        @include phone320 {
-            font-size: 14px;
-            height: 20px;
-        }
         &::before {
             content: "";
             position: absolute;
-            
+            border: 10px solid transparent;
+            border-right: 10px solid beige;
+            left: -19px;
             top: 0;
+
             @include tablets {
                 border: 12px solid transparent;
                 border-right: 10px solid beige;
                 left: -20px;
-            }
-            @include phone320 {
-                border: 10px solid transparent;
-                border-right: 10px solid beige;
-                left: -19px;
             }
         }
     }
 }
 
 .portf-desc {
+    display: none;
 
     @include tablets {
         display: block;
-    }
-    @include phone320 {
-        display: none;
     }
 }

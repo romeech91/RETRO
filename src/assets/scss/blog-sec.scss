@@ -9,13 +9,11 @@
 }
 
 .part__photo {
+    display: none;
     @include tablets {
         display: block;
         width: 25%;
         margin-right: 20px;
-    }
-    @include phone320 {
-        display: none;
     }
 }
 
@@ -27,11 +25,9 @@
 }
 
 .part__content {
+    width: 100%;
     @include tablets {
         width: 75%;
-    }
-    @include phone320 {
-        width: 100%;
     }
 }
 
@@ -39,12 +35,10 @@
     text-transform: none;
     width: 90%;
     text-align: left;
+    display: block;
     @include tablets {
         display: flex;
         margin: 20px auto;
-    }
-    @include phone320 {
-        display: block;
     }
 }
 

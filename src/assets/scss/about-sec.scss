@@ -29,17 +29,16 @@
     position: relative;
     top: 50%;
     left: 50%;
+    width: 35px;
     transform: translate(-50%, -50%);
     @include tablets {
         width: 50px;
     }
-    @include phone320 {
-        width: 35px;
-    }
 }
 
 .interests__item-circle {
-    
+    width: 50px;
+    height: 50px;    
     border-radius: 50%;
     border: 2px solid rgb(255, 255, 255);
     background-color: #d45244;
@@ -47,10 +46,6 @@
     @include tablets {
         height: 70px;
         width: 70px;
-    }
-    @include phone320 {
-        width: 50px;
-        height: 50px;
     }
 }
 
@@ -62,14 +57,11 @@
 
 .interests-block__heading {
     font-weight: 600;
-
+    font-size: 16px;
+    margin: 5px 0;
     @include tablets {
         font-size: 22px;
         margin: 8px;
-    }
-    @include phone320 {
-        font-size: 16px;
-        margin: 5px 0;
     }
 }
 
@@ -79,10 +71,6 @@
     margin: 1px 0;
     @include tablets {
         font-size: 16px;
-    }
-
-    @include phone320 {
-        font-size: 11px;
     }
 }
 
@@ -96,12 +84,10 @@
     padding: 2px;
     color: rgba(0, 0, 0, 0.74);
     line-height: 1.2;
+    font-size: 11px;
+    margin: 3px 2px;
     @include tablets {
         font-size: 16px;
         margin: 5px;
-    }
-    @include phone320 {
-        font-size: 11px;
-        margin: 3px 2px;
     }
 }
