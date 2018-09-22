@@ -43,6 +43,10 @@
         width: 600px;
         height: 400px;
     }
+    @include desktop {
+        width: 800px;
+        height: 440px;
+    }
 }
 
 .hero__title-pic {
@@ -67,6 +71,9 @@
     color: #fff;
     @include laptop {
         font-size: 30px;
+    }
+    @include desktop {
+        width: 35%;
     }
 }
 

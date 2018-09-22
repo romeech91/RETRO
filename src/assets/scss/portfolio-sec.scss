@@ -13,6 +13,10 @@
     justify-content: center;
     margin-top: 5px;
     margin-bottom: 2px;
+    @include laptop {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 .gallery__item {
@@ -24,6 +28,7 @@
     justify-content: flex-end;
     width: 120px;
     height: 120px; 
+
     @include tablets {
         width: 150px;
         height: 150px;
@@ -32,6 +37,11 @@
         width: 190px;
         height: 190px;
     }
+    @include desktop {
+        width: 220px;
+        height: 220px;
+    }
+
     &:nth-child(7) {
         display: none;
         @include tablets {
@@ -54,6 +64,9 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    @include desktop {
+        height: 20%;
+    }
     &__name {
         text-align: center;
         font-size: 9px;
@@ -62,6 +75,9 @@
         }
         @include laptop {
             font-size: 15px;
+        }
+        @include desktop {
+            font-size: 17px;
         }
     }
     &__circle {

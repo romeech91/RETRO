@@ -60,7 +60,7 @@ body {
 
 .heading-block__main {
     font-family: 'Bazar';
-    color: #000;
+    color: #383a3c;
     font-weight: 400;
     margin: 0 0;
     text-shadow: 4px 1px 3px rgba(255, 255, 255, 0.78);
@@ -70,6 +70,9 @@ body {
     }
     @include laptop {
         font-size: 50px;
+    }
+    @include desktop {
+        font-size: 70px;
     }
 }
 
@@ -148,6 +151,7 @@ body {
     font-weight: 600;
     margin-top: 30px;
     font-size: 16px;
+    color: #383a3c;
     &::before {
         content: "";
         width: 50%;

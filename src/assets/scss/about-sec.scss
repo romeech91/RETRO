@@ -12,6 +12,9 @@
     flex-wrap: wrap;
     margin-bottom: 0;
     justify-content: space-around;
+    @include desktop {
+        align-items: flex-start;
+    }
 }
 
 .interests__item {
@@ -22,6 +25,9 @@
     font-weight: 400;
     width: 50%;
     margin-bottom: 10px;
+    @include laptop {
+        width: 25%;
+    }
 }
 
 .interests__item-svg {
@@ -33,6 +39,9 @@
     transform: translate(-50%, -50%);
     @include tablets {
         width: 50px;
+    }
+    @include desktop {
+        width: 75px;
     }
 }
 
@@ -47,6 +56,11 @@
         height: 70px;
         width: 70px;
     }
+    @include desktop {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 8px;
+    }
 }
 
 .interests-block {
@@ -59,12 +73,16 @@
     font-weight: 600;
     font-size: 16px;
     margin: 5px 0;
+    font-family: 'Bazar', sans-serif;
     @include tablets {
         font-size: 22px;
         margin: 8px;
     }
     @include laptop {
         font-size: 25px;
+    }
+    @include desktop {
+       
     }
 }
 
