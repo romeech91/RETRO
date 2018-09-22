@@ -10,9 +10,6 @@
     @include tablets {
         padding: 20px;
     }
-/*     @include phone320 {
-        
-    } */
 }
 
 .hero__slider {
@@ -33,14 +30,19 @@
         width: 100%;
         text-align: center;
         padding: 3px;
+        @include laptop {
+            padding: 10px;
+            font-size: 19px;
+        }
     }
     @include tablets {
-        width: 400px;
+        width: 500px;
         height: 300px;
     }
-/*     @include phone320 {
-        
-    } */
+    @include laptop {
+        width: 600px;
+        height: 400px;
+    }
 }
 
 .hero__title-pic {
@@ -50,9 +52,9 @@
     @include tablets {
         margin: 20px 0 15px 0;
     }
-/*     @include phone320 {
-        
-    } */
+    @include laptop {
+        width: 320px;
+    }
 }
 
 
@@ -63,6 +65,9 @@
     font-weight: 500;
     margin-top: 0;
     color: #fff;
+    @include laptop {
+        font-size: 30px;
+    }
 }
 
 .slider__control {
@@ -73,6 +78,9 @@
     display: flex;
     width: 105%;
     justify-content: space-between;
+    @include tablets {
+        width: 103%;
+    }
 }
 
 .slider__btn {
@@ -96,7 +104,8 @@
         height: 50px;
         font-size: 19px;
     }
-/*     @include phone320 {
-        
-    } */
+    @include laptop {
+        height: 69px;
+        font-size: 25px;
+    }
 }

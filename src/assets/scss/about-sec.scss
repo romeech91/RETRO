@@ -63,6 +63,9 @@
         font-size: 22px;
         margin: 8px;
     }
+    @include laptop {
+        font-size: 25px;
+    }
 }
 
 .interests-block__desc {
@@ -71,6 +74,9 @@
     margin: 1px 0;
     @include tablets {
         font-size: 16px;
+    }
+    @include laptop {
+        font-size: 17px;
     }
 }
 
@@ -89,5 +95,8 @@
     @include tablets {
         font-size: 16px;
         margin: 5px;
+    }
+    @include laptop {
+        font-size: 17px;
     }
 }

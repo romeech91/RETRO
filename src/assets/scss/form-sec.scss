@@ -25,6 +25,9 @@
     @include tablets {
         width: 430px;
     }
+    @include laptop {
+        width: 450px;
+    }
 }
 
 .form {
@@ -51,6 +54,10 @@
     width: 135px;
     border-radius: 4px;
     background-color: #fff;
+    @include laptop {
+        width: 150px;
+        height: 40px;
+    }
 }
 
 .social__desc {
@@ -69,6 +76,9 @@
         margin: 0 auto;
         margin-top: 5px;
     }
+    @include laptop {
+        font-size: 26px;
+    }
 }
 
 .socials__list {
@@ -82,4 +92,7 @@
     border-radius: 50%;
     border: 1px solid #fff;
     margin: 0 4px;
+    @include laptop {
+        width: 70px;
+    }
 }

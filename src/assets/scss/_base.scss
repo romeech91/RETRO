@@ -64,11 +64,12 @@ body {
     font-weight: 400;
     margin: 0 0;
     text-shadow: 4px 1px 3px rgba(255, 255, 255, 0.78);
+    font-size: 32px;
     @include tablets {
         font-size: 48px;
     }
-    @include phone320 {
-        font-size: 32px;
+    @include laptop {
+        font-size: 50px;
     }
 }
 
@@ -78,14 +79,13 @@ body {
     font-weight: 700;
     align-items: center;
     color: #383a3c;
-
+    font-size: 12px;
     @include tablets {
         font-size: 15px;
     }
-    @include phone320 {
-        font-size: 12px;
+    @include laptop {
+        font-size: 19px;
     }
-
     &::before {
         content: "";
         display: block;
@@ -131,11 +131,12 @@ body {
 
 .heading-block__desc {
     margin: 5px 0;
+    font-size: 12px;
     @include tablets {
         font-size: 17px;
     }
-    @include phone320 {
-        font-size: 12px;
+    @include laptop {
+        font-size: 20px;
     }
 }
 
@@ -146,6 +147,7 @@ body {
     border: none;
     font-weight: 600;
     margin-top: 30px;
+    font-size: 16px;
     &::before {
         content: "";
         width: 50%;
@@ -157,8 +159,7 @@ body {
     @include tablets {
         font-size: 18px;
     }
-
-    @include phone320 {
-        font-size: 16px;
+    @include laptop {
+        font-size: 22px;
     }
 }

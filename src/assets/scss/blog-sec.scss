@@ -15,6 +15,9 @@
         width: 25%;
         margin-right: 20px;
     }
+    @include laptop {
+        width: 30%;
+    }
 }
 
 .part__photo-img {
@@ -22,12 +25,19 @@
     height: 120px;
     margin: 0 auto;
     border: 1px solid gray;
+    @include laptop {
+        width: 230px;
+        height: 170px;
+    }
 }
 
 .part__content {
     width: 100%;
     @include tablets {
         width: 75%;
+    }
+    @include laptop {
+        width: 70%;
     }
 }
 
@@ -44,11 +54,18 @@
 
 .article__text {
     font-size: 13px;
+    @include laptop {
+        font-size: 17px;
+        line-height: 1.5;
+    }
 }
 
 .article__heading {
     font-size: 20px;
     font-weight: 700;
+    @include laptop {
+        font-size: 26px;
+    }
 }
 
 .article__date {
@@ -68,6 +85,10 @@
     }
     &-rh {
         text-transform: uppercase;
+    }
+
+    @include laptop {
+        font-size: 16px;
     }
 }
 
