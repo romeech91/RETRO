@@ -33,6 +33,10 @@
     color: #fff;
     display: inline-block;
     font-size: 14px;
+    &:hover {
+        transition: .2s ease;
+        color: lightblue;
+    }
     @include tablets {
         font-size: 26px;
     }

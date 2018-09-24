@@ -3,21 +3,21 @@ section.hero
     img(src="src/assets/images/icons/hero_retro.png", alt="ретро главный лого").hero__title-pic
     h2.hero__subtitle Old style portfolio
     .hero__slider
-        .slider
-            .slider__window
-                ul.slider__list
-                    li.slider__item
-                        img.slider__img(src="", alt="")
-                    li.slider__item
-                        img.slider__img(src="", alt="")
-                    li.slider__item
-                        img.slider__img(src="", alt="")
-                    li.slider__item
-                        img.slider__img(src="", alt="")
-                    li.slider__item
-                        img.slider__img(src="", alt="")
-            .slider__control
-                button.slider__btn#slider__left-btn <
-                button.slider__btn#slider__right-btn >
-            
+        .slider.glide
+            .slider__window.glide__track(data-glide-el="track")
+                ul.slider__list.glide__slides
+                    li.slider__item.glide__slide
+                        +image('slider/girl.jpg', '1st pic', 'glide__slide')
+                    li.slider__item.glide__slide
+                        +image('slider/car.jpg', '2nd pic', 'glide__slide')
+                    li.slider__item.glide__slide
+                        +image('slider/audi.jpg', '3rd pic', 'glide__slide')
+                    li.slider__item.glide__slide
+                        +image('slider/girls.jpg', '4th pic', 'glide__slide')
+            .slider__control.glide__arrows(data-glide-el="controls")
+                button.glide__arrow.glide__arrow--left(data-glide-dir="<") Prev
+                button.glide__arrow.glide__arrow--right(data-glide-dir=">") Next
+                //-button.slider__btn#slider__left-btn <
+                //-button.slider__btn#slider__right-btn >
+                
     .hero__quote "Hello, I am John Doe welcome to retro, my wonderful theme"
