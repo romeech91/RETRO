@@ -13,11 +13,16 @@ section.hero
                     li.slider__item.glide__slide
                         +image('slider/audi.jpg', '3rd pic', 'glide__slide')
                     li.slider__item.glide__slide
-                        +image('slider/girls.jpg', '4th pic', 'glide__slide')
+                        +image('slider/stereo.jpg', 'boombox retro photo', 'glide__slide')
             .slider__control.glide__arrows(data-glide-el="controls")
                 button.glide__arrow.glide__arrow--left(data-glide-dir="<") Prev
                 button.glide__arrow.glide__arrow--right(data-glide-dir=">") Next
                 //-button.slider__btn#slider__left-btn <
                 //-button.slider__btn#slider__right-btn >
+            .glide__bullets(data-glide-el='controls[nav]')
+                .glide__bullet(data-glide-dir="=0") Kodak Camera
+                .glide__bullet(data-glide-dir="=1") VW Beatle
+                .glide__bullet(data-glide-dir="=2") Audi Retro
+                .glide__bullet(data-glide-dir="=3") Stereo
                 
     .hero__quote "Hello, I am John Doe welcome to retro, my wonderful theme"
