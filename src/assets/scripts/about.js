@@ -16,7 +16,7 @@ function createSkills(item) {
         blockText.classList.add('interests-block');
 
         var logoImg = document.createElement('img');
-        logoImg.setAttribute('url', element.imageURL);
+        logoImg.setAttribute('src', element.imageURL);
         logoImg.setAttribute('alt', 'pictures logo');
         logoImg.classList.add('interests__item-svg');
 
@@ -41,8 +41,6 @@ function createSkills(item) {
         text.textContent = element.text;
     });
     interests.appendChild(list);
-    console.log(list);
-
 }
 
 createSkills(data);

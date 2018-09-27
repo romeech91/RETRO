@@ -36,5 +36,8 @@
     "webpack-dev-server": "^3.1.8",
     "webpack-merge": "^4.1.4",
     "webpack-plugin-critical": "^1.0.0"
+  },
+  "dependencies": {
+    "webpack-jquery-ui": "^2.0.1"
   }
 }

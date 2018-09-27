@@ -1,0 +1,101 @@
+[
+    {
+        "imageURL": "src/assets/images/gallery/black_citchen.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/camera.svg",
+        "title": "Black kitchen retro",
+        "tags": ["interior"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/casset.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/document.svg",
+        "title": "Retro cassete",
+        "tags": ["music"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/cat.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/settings.svg",
+        "title": "Cat with headphones",
+        "tags": ["music", "animals"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/citchen.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/sound.svg",
+        "title": "Retro kitchen",
+        "tags": ["interior"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/city.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/star.svg",
+        "title": "City in ussr",
+        "tags": ["cars", "city"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/coffee.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/tv.svg",
+        "title": "Old coffee",
+        "tags": ["interior", "cola"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/cola.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/video.svg",
+        "title": "Pin-up Cola",
+        "tags": ["girls", "cola"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/cassets.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/gallery.svg",
+        "title": "Old cassets",
+        "tags": ["music"]
+    },
+    
+
+    {
+        "imageURL": "src/assets/images/gallery/fujifilm.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/camera.svg",
+        "title": "Retro Camera",
+        "tags": ["camera"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/incar.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/document.svg",
+        "title": "Girls in car",
+        "tags": ["interior", "cars"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/mers.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/settings.svg",
+        "title": "Old MBs",
+        "tags": ["cars"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/room.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/sound.svg",
+        "title": "Retro style room",
+        "tags": ["interior"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/videocam.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/star.svg",
+        "title": "Retro camera",
+        "tags": ["camera"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/women.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/tv.svg",
+        "title": "Women in city",
+        "tags": ["girls", "city"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/zil.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/video.svg",
+        "title": "Car interior",
+        "tags": ["interior", "cars"]
+    },
+    {
+        "imageURL": "src/assets/images/gallery/cassets.jpg",
+        "iconURL": "src/assets/images/icons/gallery-icons/gallery.svg",
+        "title": "Old cassets",
+        "tags": ["music"]
+    }
+
+]

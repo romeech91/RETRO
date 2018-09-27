@@ -39,6 +39,12 @@ module.exports = {
         new CopyWebpackPlugin([{
             from: path.resolve(__dirname, 'static/'),
             to: path.resolve(__dirname, 'dist/static')
-        }])
+        }]),
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery",
+            "window.jQuery": "jquery'",
+            "window.$": "jquery"
+        })
     ]
 };
