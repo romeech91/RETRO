@@ -9,13 +9,6 @@ module.exports = merge(common, {
     },
     module: {
         rules: [
-            /*             {
-                            test: /\.js$/,
-                            exclude: /node_modules|static/,
-                            use: [
-                                'eslint-loader'
-                            ]
-                        }, */
             {
                 test: /\.scss$/,
                 use: [
@@ -27,26 +20,6 @@ module.exports = merge(common, {
             {
                 test: /\.(gif|jpe?g|png|svg|webp)$/,
                 loader: 'file-loader'
-            },
-            {
-                test: /\.svg$/,
-                use: {
-                    loader: 'svgo-loader',
-                    options: {
-                        plugins: [{
-                                removeTitle: true
-                            },
-                            {
-                                convertColors: {
-                                    shorthex: false
-                                }
-                            },
-                            {
-                                convertPathData: false
-                            }
-                        ]
-                    }
-                }
             }
         ]
     }
