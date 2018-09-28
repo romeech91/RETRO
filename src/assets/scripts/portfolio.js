@@ -12,17 +12,16 @@ function createItems(item) {
 
         filterTag.addEventListener('click', (e) => {
             li.classList.remove('visually-hidden');
-            let liTag = li.getAttribute('data-tag');
-            console.log(liTag);
-            let currentTag = e.target.dataset.tag;
-            
+            var liTag = li.getAttribute('data-tag');
+            var arrayTags = liTag.split(",");
+            var currentTag = e.target.dataset.tag;
             li.style.display = "none";
-            if (currentTag === liTag) {
-                li.style.display = "flex";
-            }
-            liTag.forEach(elem => {
-                
-            })
+            
+            arrayTags.forEach(item => {
+                if (currentTag == item) {
+                    li.style.display = 'flex';
+                }
+            });
         })
 
         let li = document.createElement('li');
@@ -49,17 +48,15 @@ function createItems(item) {
         block.appendChild(circle);
         circle.appendChild(circleImg);
 
-        
-
-
         if (index > 7) {
             li.classList.add('visually-hidden');
         }
         
         btn.addEventListener('click', function() {
+            li.style.display = 'flex';
+            
             if (index > 7 && index <= 16) {
-                li.classList.toggle('visually-hidden');
-                
+                li.classList.toggle('visually-hidden'); 
             }           
         })
         
