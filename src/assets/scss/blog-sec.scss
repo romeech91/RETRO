@@ -59,14 +59,6 @@
     @include laptop {
         font-size: 17px;
         line-height: 1.5;
-        &::before {
-            content: "";
-            display: block;
-            width: 40px;
-            height: 2px;
-            margin-bottom: 10px;
-            background-color: black;
-        }
     }
 }
 
@@ -76,6 +68,14 @@
     @include laptop {
         font-size: 26px;
     }
+}
+
+.article__line {
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: #3a3a3a;
+    margin: 10px 0;
 }
 
 .article__date {
@@ -92,12 +92,18 @@
     } */
     &-lh {
         text-transform: uppercase;
+        display: flex;
         @include desktop {
             width: 78%;
         }
     }
     &-rh {
         text-transform: uppercase;
+        background: transparent;
+        border: none;
+        padding: 0;
+        font-weight: 600;
+        cursor: pointer;
         @include desktop {
             margin-bottom: 13px;
         }
@@ -108,6 +114,17 @@
     }
     @include desktop {
         display: flex;
+    }
+}
+
+.post-user {
+    &::before {
+        content: "//";
+        display: inline-block;
+    }
+    &::after {
+        content: "//";
+        display: inline-block;
     }
 }
 

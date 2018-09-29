@@ -4,34 +4,49 @@ section.blog.section
         span.heading-block__xxx  xxx 
         span.heading-block__desc News from my house
     .container
-        article.article.article__magic
-            .part__photo
-                .part__photo-img.retro-car
-            .part__content
-                h4.article__heading The magic wheel
-                .article__date
-                    .article__date-lh July 28,2017//admin//fun,travels,friends
-                    .article__date-rh 1 response
-                span.article__line
-                p.article__text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam in vitae porro eligendi blanditiis facere incidunt minima iste, rerum ut at officia amet quibusdam! Earum doloribus corrupti esse qui praesentium!
-        article.article.article__lonely
-            .part__photo
-                .part__photo-img.retro-road
-            .part__content
-                h4.article__heading The lonely road
-                .article__date
-                    .article__date-lh July 28,2017//admin//fun,travels,friends
-                    .article__date-rh 3 responses
-                span.article__line
-                p.article__text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam in vitae porro eligendi blanditiis facere incidunt minima iste, rerum ut at officia amet quibusdam! Earum doloribus corrupti esse qui praesentium!
-        article.article.article__gasoline
-            .part__photo
-                .part__photo-img.retro-gas
-            .part__content
-                h4.article__heading I love gasoline smell
-                .article__date
-                    .article__date-lh July 28,2017//admin//fun,travels,friends
-                    .article__date-rh 3 responses
-                span.article__line
-                p.article__text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam in vitae porro eligendi blanditiis facere incidunt minima iste, rerum ut at officia amet quibusdam! Earum doloribus corrupti esse qui praesentium!
-        button.browse-all__btn Show all posts
+        .blog__articles
+            .articles
+                ul.articles__list
+                    li.articles__item
+                        article.article.article__magic
+                            .part__photo
+                                .part__photo-img.retro-car
+                            .part__content
+                                h4.article__heading The magic wheel
+                                .article__date
+                                    .article__date-lh
+                                        time.post-date(datetime='2017-06-28') 2017 July 28
+                                        .post-user admin
+                                        .post-hashtags travel, nature, relax
+                                    button.article__date-rh(type="button") 1 response
+                                span.article__line
+                                p.article__text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam in vitae porro eligendi blanditiis facere incidunt minima iste, rerum ut at officia amet quibusdam! Earum doloribus corrupti esse qui praesentium!
+                    li.articles__item
+                        article.article.article__lonely
+                            .part__photo
+                                .part__photo-img.retro-road
+                            .part__content
+                                h4.article__heading The lonely road
+                                .article__date
+                                    .article__date-lh
+                                        time.post-date(datetime='2017-06-28')  2017 July 28
+                                        .post-user admin 
+                                        .post-hashtags fun, travel, drugs
+                                    button.article__date-rh(type="button") 0 responses
+                                span.article__line
+                                p.article__text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam in vitae porro eligendi blanditiis facere incidunt minima iste, rerum ut at officia amet quibusdam! Earum doloribus corrupti esse qui praesentium!
+                    li.articles__item
+                        article.article.article__gasoline
+                            .part__photo
+                                .part__photo-img.retro-gas
+                            .part__content
+                                h4.article__heading I love gasoline smell
+                                .article__date
+                                    .article__date-lh 
+                                        time.post-date(datetime='2017-06-28')  2017 July 28
+                                        .post-user admin
+                                        .post-hashtags music, fun
+                                    button.article__date-rh(type="button") 3 responses
+                                span.article__line
+                                p.article__text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam in vitae porro eligendi blanditiis facere incidunt minima iste, rerum ut at officia amet quibusdam! Earum doloribus corrupti esse qui praesentium!
+                button.browse-all__btn Show all posts
